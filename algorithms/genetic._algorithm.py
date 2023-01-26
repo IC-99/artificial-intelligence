@@ -80,5 +80,3 @@ if __name__ == "__main__":
     best, score = genetic(onemax, n_pop, n_bits, n_iter, mutation_rate, crossover_rate)
     print('Done!')
     print('f(%s) = %d' % (best, score))
-
-
